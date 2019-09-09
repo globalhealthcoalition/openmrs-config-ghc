@@ -1,0 +1,395 @@
+{
+   "Diagnosis": {
+        "name": "Coded and Non-coded Diagnoses Entered",
+        "type": "MRSGeneric",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/diagnosis.sql"
+        }
+    },   
+"obsCannedReport": {
+    "name": "Patient Characteristics",
+ "type": "obsCannedReport",
+ "config": {
+      "patientAttributes": ["occupation"],
+  "applyDateRangeFor": "ObsRecording",
+  "addressAttributes": ["city_village"],
+  "conceptNames": ["Systolic","Diastolic","Pulse","RR","SPO2","Smoking History","BMI","BMI STATUS","WEIGHT"],
+  "visitIndependentConcept": ["HEIGHT"],
+  "showObsOnlyForProgramDuration": false
+  }
+},
+ "visitReport10": {
+        "name": "Visit Report",
+        "type": "visits",
+        "config": {
+            "forDataAnalysis": true,
+            "patientAttributes": [
+                "education",
+                "occupation",
+                "primaryContact"
+            ],
+            "visitAttributes": [
+                "Visit Status",
+                "Admission Status"
+            ],
+            "patientAddresses": [
+                "city_village"
+            ],
+            "applyDateRangeFor": "visitStopDate",
+            "visitTypesToFilter": [
+                "PHARMACY VISIT",
+                "OPD"
+            ]
+        }
+    },
+
+    "chiefComplaintReport": {
+        "name": "Chief Complaint Report",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Chief Complaint"
+            ],
+            "countOnlyClosedVisits": "false",
+            "visitTypes": [
+                "IPD",
+                "OPD"
+            ]
+        }
+    },
+    "outpatientMorbidity": {
+        "name": "Outpatient Morbidity",
+        "type": "diagnosisCount",
+        "config": {
+            "visitTypes": [
+                "OPD"
+            ]
+        }
+    },
+    "laboratoryServices": {
+        "name": "Laboratory Services",
+        "type": "TestCount"
+    },
+    "genericLaboratoryServices": {
+        "name": "Generic Laboratory Services",
+        "type": "ElisGeneric",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/testCount.sql"
+        }
+    },
+    "genericOutpatientMorbidity": {
+        "name": "Generic Outpatient Morbidity",
+        "type": "MRSGeneric",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/diagnosisCountOPD.sql"
+        }
+    },
+    "bloodPressure": {
+        "name": "Blood Pressure",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Systolic",
+                "Diastolic"
+            ],
+            "countOnlyClosedVisits": "false",
+            "countOncePerPatient": "false",
+            "visitTypes": [
+                "OPD",
+                "IPD"
+            ]
+        }
+    },
+    "smokingHistoryReport": {
+        "name": "Smoking History Report",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Smoking History"
+            ],
+            "countOnlyClosedVisits": "false",
+            "countOncePerPatient": "true"
+        }
+    },
+    "vitalsTemplateReport": {
+        "name": "Vitals Template Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Vitals",
+            "patientAttributes": [
+               
+            ],
+            "applyDateRangeFor": "encounterCreateDate"
+        }
+    },
+    "tuberculosisIntakeTemplateReport": {
+        "name": "Tuberculosis Intake Template Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Tuberculosis Intake Template"
+        }
+    },
+    "diabetes": {
+        "name": "Diabetes",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Diabetes, Intake"
+            ],
+            "visitTypes": [
+                "OPD",
+                "IPD"
+            ]
+        }
+    },
+    "codedValueRangeBasedReport": {
+        "name": "Coded Value Range Based Report",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Diabetes, Cormorbidities"
+            ],
+            "countOncePerPatient": "true"
+        }
+    },
+    "OPD/IPDVisitCount": {
+        "name": "OPD/IPD Visit Count",
+        "type": "IpdOpdVisitCount"
+    },
+    "haemoglobinRangeBasedReport": {
+        "name": "Haemoglobin Range Based Report",
+        "type": "NumericConceptValuesCount",
+        "config": {
+            "rangeGroupName": "Haemoglobin",
+            "ageGroupName": "Haemoglobin",
+            "conceptNames": [
+                "Haemoglobin"
+            ],
+            "countOncePerPatient": "false"
+        }
+    },
+    "tuberculosisTreatmentCompletionDates": {
+        "name": "Tuberculosis Treatment Completion dates",
+        "type": "DateConceptValuesPatientsList",
+        "config": {
+            "conceptNames": [
+                "Tuberculosis, Treatment Completion Date"
+            ],
+            "templateName": "Tuberculosis Outcome Template"
+        }
+    },
+    "patientsListWithRapidHIV(Blood)TestsResults": {
+        "name": "Patients list with Rapid HIV (Blood) tests results",
+        "type": "PatientsWithLabtestResults",
+        "config": {
+            "conceptNames": [
+                "Rapid HIV (Blood)"
+            ],
+            "testOutcome": [
+                "abnormal",
+                "normal"
+            ]
+        }
+    },
+   "nutritionProgramNutritionalStatusOfRegisteredChildren": {
+        "name": "Nutrition Program - Nutritional status of registered children",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames": [
+                "Nutrition, Nutritional Status"
+            ],
+            "countOncePerPatient": "true",
+            "countOnlyClosedVisits": "false"
+        }
+    },
+    "CardiovascularStudyStateCountReport": {
+        "name": "Cardiovascular Study Stage Count Report",
+        "type": "programStateCount",
+        "config": {
+            "programName": "Cardiovascular Study"
+        }
+    },
+    "CardiovascularStudyStateReport": {
+        "name": "Cardiovascular Study Stage Report",
+        "type": "PatientProgramReport",
+        "config": {
+            "programName": "Cardiovascular Study"
+        }
+    },
+    "CardiovascularStudyStateTransitionReport": {
+        "name": "Cardiovascular Study Stage Transition Report",
+        "type": "programStateTransitionReport",
+        "config": {
+            "programName": "Cardiovascular Study"
+        }
+    },
+    "programPatientStateReport": {
+        "name": "Vaginal Discharge Study Stage Report",
+        "type": "PatientProgramReport",
+        "config": {
+            "programName": "Vaginal Discharge Study"
+        }
+    },
+    "patientReport": {
+        "name": "Patient Information",
+        "type": "PatientReport"
+    },
+    "drugOrderReport": {
+        "name": "Drug Order report",
+        "type": "DrugOrder"
+    },
+    "SampleGenericProgramReport": {
+        "name": "Program Report",
+        "type": "programs",
+        "config": {
+            "patientAttributes": [
+                "education",
+                "primaryContact",
+                "secondaryContact"  
+            ],
+            "patientAddresses": [
+                "city_village"
+            ],
+            "programAttributes": [],
+            "forDataAnalysis": true,
+            "showAllStates": true,
+            "programNamesToFilter": [
+                "Cardiovascular Study",
+                "Vaginal Discharge Study"
+            ]
+        }
+    },
+    "pivotReportOfVisits": {
+        "name": "Aggregation report for visits",
+        "type": "aggregation",
+        "config": {
+            "report":{
+                "type": "visits",
+                "config": {
+                    "forDataAnalysis": true,
+                    "patientAttributes": [
+                        "education",
+                        "occupation",
+                        "primaryContact"
+                    ],
+                    "visitAttributes": [
+                        "Visit Status",
+                        "Admission Status"
+                    ],
+                    "patientAddresses": [
+                        "city_village"
+                    ],
+                    "applyDateRangeFor": "visitStopDate",
+                    "visitTypesToFilter": [
+                        "PHARMACY VISIT",
+                        "OPD"
+                    ]
+                }
+            },
+            "rowGroups": [
+                "Gender"
+            ],
+            "columnGroups": [
+                "Visit Status"
+            ],
+            "distinctGroups": [
+                "Patient Identifier"
+            ]
+        }
+    },
+    "pivotReportForPrograms": {
+        "name": "Program Pivot Report",
+        "type": "aggregation",
+        "config": {
+            "report": {
+                "type": "programs",
+                "config": {
+                    "patientAttributes": [
+                    ],
+                    "patientAddresses": [
+                        "city_village"
+                    ],
+                    "programAttributes": [],
+                    "forDataAnalysis": true,
+                    "showAllStates": true,
+                    "programNamesToFilter": [
+                        "Cardiovascular Study",
+                        "Vaginal Discharge Study"
+                    ]
+                }
+            },
+            "columnGroups": [
+                "Program name"
+            ],
+            "rowGroups": [
+                "Gender"
+            ],
+            "distinctGroups": [
+                "Patient Identifier"
+            ],
+            "showTotalRow":true,
+            "showTotalColumn":true
+
+        }
+    },
+  "GenericLabOrderReport": {
+    "name": "Lab Order Results",
+    "type": "labOrders",
+    "config": {
+      "patientAttributes": [
+        "education",
+        "occupation",
+        "primaryContact"
+      ],
+      "patientAddresses": [
+        "city_village"
+      ],
+      "visitAttributes": [
+        "Visit Status"
+      ],
+      "showVisitInfo": true,
+      "showProvider": true,
+      "programsToFilter": [],
+      "showReferredOutTests": true,
+      "conceptNamesToFilter": [
+        "Haemoglobin (Blood)"
+      ],
+      "conceptValuesToFilter": [
+        "10..100"
+      ],
+      "forDataAnalysis": true,
+      "excludeColumns": [
+        "address3"
+      ],
+      "showOrderDateTime": true
+    }
+  },
+  "GenericLabOrderReportAggregation": {
+    "name": "Test Name vs Gender",
+    "type": "aggregation",
+    "config": {
+      "report": {
+        "type": "labOrders",
+        "config": {
+          "forDataAnalysis": true,
+          "showVisitInfo": true
+        }
+      },
+      "rowGroups": [
+        "Test Name"
+      ],
+      "columnGroups": [
+        "Gender"
+      ],
+      "distinctGroups": [
+        "Patient Identifier"
+      ]
+    }
+  }
+}

@@ -1,0 +1,196 @@
+{
+    "id": "bahmni.clinical",
+    "extensionPoints": [
+        {
+            "id": "org.bahmni.clinical.consultation.board",
+            "description": "Bahmni Clinical Consultation Page"
+        },
+        {
+            "id": "org.bahmni.clinical.conceptSetGroup.*",
+            "description": "Define conceptsets part of a conceptset group"
+        },
+        {
+            "id": "org.bahmni.clinical.orders",
+            "description": "Bahmni Orders Page"
+        },
+        {
+            "id": "org.bahmni.patient.search",
+            "description": "Bahmni Patient search, lookups Page"
+        }
+    ],
+    "contextModel": [
+        "patientUuid",
+        "visitUuid"
+    ],
+    "config": {
+        "enablePACSOptions":true,
+        "quickPrints":false,
+        "networkConnectivity" : {
+            "showNetworkStatusMessage": true,
+            "networkStatusCheckInterval": 5000,
+            "locales" : [
+                { "locale" : "fr", "css" : "offline-language-french"},
+                { "locale" : "es", "css": "offline-language-spanish"},
+                { "locale" : "pt", "css": "offline-language-portuguese-brazil"}
+            ]
+        },
+    	"diagnosisStatus": "Inactive",
+            "program": {
+                "patientInformation": {
+                    "ageLimit": 100
+                }
+            },
+            "patientContext": {
+        		"programAttributes": [
+            		"Id_Number",
+            		"Doctor",
+            		"Stage"
+        		],
+        		"personAttributes": [
+            		"class",
+            		"caste"
+        		],
+        		"additionalPatientIdentifiers": [
+           			"National ID"
+       		],
+        		"preferredIdentifier": "Id_Number"
+    	},
+        "obsIgnoreList": [
+            "REGISTRATION FEES",
+            "COMMENTS",
+            "Patient file"
+        ],
+        "otherInvestigationsMap": {
+            "Radiology": "Radiology Order",
+            "Endoscopy": "Endoscopy Order"
+        },
+        "allowConsultationWhenNoOpenVisit": false,
+        "defaultVisitType": "OPD",
+        "visitTypeForRetrospectiveEntries": "Special OPD",
+        "maxConceptSetLevels": 3,
+        "allowOnlyCodedDiagnosis": false,
+        "conceptSetUI": {
+            "All Observation Templates": {
+                "showPanelView": false
+            },
+            "Chief Complaint Data": {
+                "autocomplete":true,
+                "codedConceptName":"Chief Complaint",
+                "nonCodedConceptName":"Non-Coded Chief Complaint",
+                "durationRequired": false,
+                "allowAddMore": true
+            },
+            "Posture": {
+                "buttonSelect": true
+            },
+            "P/A Presenting Part": {
+                "multiSelect": true
+            },
+            "FHS": {
+                "buttonSelect": true
+            },
+            "P/S (Per Speculum) - Cervix": {
+                "grid": true
+            },
+            "Anaemia, Stopped Since When": {
+                "conciseText": true
+            },
+            "Tuberculosis Intake Template": {
+                "computeDrugs": true
+            },
+            "Set1": {
+                "allowAddMore": true
+            },
+            "Set2": {
+                "allowAddMore": true
+            },
+            "Coded3": {
+                "multiSelect": true
+            },
+            "Image": {
+                "allowAddMore": true
+            },
+            "Gynaecology, Gravida": {
+                "stepper": true
+            },
+            "Accepted Family Planning methods": {
+                "multiSelect": true
+            },
+            "GHC_Reason for Visit": {
+                "multiSelect": true
+            },
+            "GHC_Actions for symptoms taken": {
+                "multiSelect": true
+            },
+            "GHC_Partner sex": {
+                "multiSelect": true
+            },
+            "GHC_Microscopy": {
+                "multiSelect": true
+            },
+            "GHC_Urine Dipstick": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Discharge Study Diagnosis": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Discharge Study Treatment": {
+                "multiSelect": true
+            },
+            "GHC_Vaginal Discharge Study Results From Lab": {
+                "multiSelect": true
+            },
+            "GHC_Types of medications currently on": {
+                "multiSelect": true
+            },
+            "GHC_EKG Interpretation": {
+                "multiSelect": true
+            },
+            "GHC_Patient enrollment reason": {
+                "multiSelect": true
+            },
+            "defaults": {
+                "Number of living children": 1,
+                "Accepted Family Planning methods": [
+                    "Condoms",
+                    "Pills"
+                ],
+                "Pain management given": true,
+                "Safe Abortion, Remarks": "Remarks",
+                "Malaria, Death Date": "2015-12-01"
+            },
+            "GHC_Healthcare previously received, where": {
+                "multiSelect": true
+            },
+            "GHC_Source of water": {
+                "multiSelect": true
+            },
+            "GHC_Last medical visit location": {
+                "multiSelect": true
+            },
+            "GHC_Medical condition mentionned the past year": {
+                "multiSelect": true
+            },
+            "GHC_Type of cancer": {
+                "multiSelect": true
+            },
+            "GHC_Birth control methods used": {
+                "multiSelect": true
+            },
+            "GHC_Birth control methods used": {
+                "multiSelect": true
+            },
+            "GHC_Reasons for not using birth control": {
+                "multiSelect": true
+            },
+            "GHC_Physical Measurements": {
+                "allowAddMore": true
+            }
+        },
+        "visitPage": {
+            "observationDisplay": {
+                "conceptNames": []
+            }
+        }
+    }
+}
