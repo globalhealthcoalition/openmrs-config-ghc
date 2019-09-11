@@ -1,0 +1,1 @@
+delete from address_hierarchy_entry where address_hierarchy_entry_id < 1734;

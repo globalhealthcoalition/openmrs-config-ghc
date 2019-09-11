@@ -1,0 +1,36 @@
+<config>
+  <globalProperties>
+    <globalProperty>
+      <property>exti18n.reverseI18nSupport</property>
+      <value>false</value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmni.extraPatientIdentifierTypes</property>
+      <value></value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmni.encountersession.duration</property>
+      <value>600</value>
+    </globalProperty>
+    <globalProperty>
+      <property>emrapi.sqlSearch.drugOrderPatients</property>
+      <value>select entries.name, entries.identifier, entries.uuid, entries.activeVisitUuid,  date_format(entries.order_time,'%b %d %Y %H:%i') AS order_time, entries.drug_orders as 'Drug Orders', entries.orders_dispensed as 'Drug Dispensed'from ( SELECT DISTINCT concat(pn.given_name, ' ', pn.family_name) AS name, pi.identifier AS identifier, concat("", p.uuid) AS uuid, concat("", v.uuid) AS activeVisitUuid, max(orders.date_created) as order_time, count(orders.order_id) as drug_orders, count(obs.value_coded) as orders_dispensed FROM visit v JOIN person_name pn ON v.patient_id = pn.person_id AND v.date_stopped IS NULL AND pn.voided = 0 and v.date_stopped is null and v.voided = 0 JOIN patient_identifier pi ON v.patient_id = pi.patient_id JOIN person p ON p.person_id = v.patient_id join encounter e on v.visit_id = e.visit_id JOIN orders on orders.encounter_id = e.encounter_id and orders.order_type_id = 2 and orders.date_stopped is null and orders.order_action in ('NEW','REVISE') left join obs on obs.order_id = orders.order_id and obs.concept_id = 1501 group by p.person_id order by order_time ASC  ) AS entries where entries.orders_dispensed &lt; entries.drug_orders;</value>
+    </globalProperty>
+    <globalProperty>
+      <property>emrapi.sqlSearch.drugOrderDispensedPatients</property>
+      <value>select entries.name, entries.identifier, entries.uuid, entries.activeVisitUuid, date_format(entries.order_time,'%b %d %Y %H:%i') AS order_time, entries.drug_orders as 'Drug Orders', entries.orders_dispensed as 'Drug Dispensed'from ( SELECT DISTINCT concat(pn.given_name, ' ', pn.family_name) AS name, pi.identifier AS identifier, concat("", p.uuid) AS uuid, concat("", v.uuid) AS activeVisitUuid, max(orders.date_created) as order_time, count(orders.order_id) as drug_orders, count(obs.value_coded) as orders_dispensed FROM visit v JOIN person_name pn ON v.patient_id = pn.person_id AND v.date_stopped IS NULL AND pn.voided = 0 and v.date_stopped is null and v.voided = 0 JOIN patient_identifier pi ON v.patient_id = pi.patient_id JOIN person p ON p.person_id = v.patient_id join encounter e on v.visit_id = e.visit_id JOIN orders on orders.encounter_id = e.encounter_id and orders.order_type_id = 2 and orders.date_stopped is null and orders.order_action in ('NEW','REVISE') left join obs on obs.order_id = orders.order_id and obs.concept_id = 1501 group by p.person_id order by order_time ASC ) AS entries where entries.orders_dispensed = entries.drug_orders and entries.drug_orders>0;</value>
+    </globalProperty>
+    <globalProperty>
+      <property>emrapi.sqlSearch.todayQueue</property>
+      <value>SELECT DISTINCT concat(pn.given_name, ' ', pn.family_name) AS name, pi.identifier AS identifier,  concat("", p.uuid) AS uuid,  concat("", v.uuid) AS activeVisitUuid, date_format(v.date_started,'%b %d %Y %H:%i') AS 'Registration time' FROM visit v JOIN person_name pn ON v.patient_id = pn.person_id AND date(v.date_started) = curdate() AND pn.voided = 0 and v.date_stopped is null and v.voided = 0 JOIN patient_identifier pi ON v.patient_id = pi.patient_id JOIN person p ON p.person_id = v.patient_id GROUP BY p.person_id ORDER BY v.date_started asc;</value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmniOfflineSync.strategy</property>
+      <value>org.bahmni.module.bahmniOfflineSync.strategy.AddressEntriesSyncStrategy</value>
+    </globalProperty>
+    <globalProperty>
+      <property>bahmniOfflineSync.addressEntriesSyncStrategy.locations</property>
+      <value>[{"uuid":"a160b5df-b832-4f69-a32a-7a975ad639a7"}]</value>
+    </globalProperty>
+  </globalProperties>
+</config>
