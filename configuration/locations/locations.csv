@@ -1,3 +1,4 @@
 Uuid,Void/Retire,Name,Description,Parent,Tags,Address1,Address2,Address3,Address4,Address5,Address6,City/Village,County/District,State/Province,Postal Code,Country,_order:1000
 c1e42932-3f10-11e4-adec-0800271c1b75,,Jerusalem Clinic,,,Visit Location,,,,,,,,,,,,
+36bf4d2a-cb35-4eb2-a599-762e04a0be77,,San Pedro,,c1e42932-3f10-11e4-adec-0800271c1b75,Login Location;,,,,,,,,,,,,
 a160b5df-b832-4f69-a32a-7a975ad639a7,,Community,,c1e42932-3f10-11e4-adec-0800271c1b75,Login Location; Visit Location,,,,,,,,,,,,
