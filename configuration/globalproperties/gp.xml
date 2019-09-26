@@ -6,7 +6,7 @@
     </globalProperty>
     <globalProperty>
       <property>bahmni.extraPatientIdentifierTypes</property>
-      <value></value>
+      <value>0d2ac572-8de3-46c8-9976-1f78899c599f</value>
     </globalProperty>
     <globalProperty>
       <property>bahmni.encountersession.duration</property>
