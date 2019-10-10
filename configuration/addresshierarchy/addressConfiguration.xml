@@ -2,6 +2,12 @@
   <wipe>true</wipe>
   <addressComponents>
     <addressComponent>
+      <field>COUNTRY</field>
+      <nameMapping>Location.country</nameMapping>
+      <sizeMapping>40</sizeMapping>
+      <requiredInHierarchy>false</requiredInHierarchy>
+    </addressComponent>
+    <addressComponent>
       <field>STATE_PROVINCE</field>
       <nameMapping>Location.stateProvince</nameMapping>
       <sizeMapping>40</sizeMapping>
@@ -19,18 +25,12 @@
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
-    <addressComponent>
-      <field>ADDRESS_3</field>
-      <nameMapping>Location.address3</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
-    </addressComponent>
   </addressComponents>
   <lineByLineFormat>
-    <string>address3</string>
     <string>address2</string>
     <string>address1</string>
     <string>stateProvince</string>
+    <string>country</string>
   </lineByLineFormat>
   <addressHierarchyFile>
     <filename>addresshierarchy.csv</filename>
