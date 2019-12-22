@@ -1,0 +1,7 @@
+Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config,_order:1000
+59f25de4-76d5-46bb-aafb-d9e27691d4cc,,Program,Speciality,To document outside referral,,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+1172915f-a709-11e6-91e9-0800270d80ce,TRUE,,,,,,org.openmrs.customdatatype.datatype.FreeTextDatatype,,,,
+2dc1aafd-a708-11e6-91e9-0800270d80ce,TRUE,,,,,,org.openmrs.customdatatype.datatype.DateDatatype,,,,
+39202f47-a709-11e6-91e9-0800270d80ce,TRUE,,,,,,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,,,,
+62346a80-a708-11e6-91e9-0800270d80ce,TRUE,,,,,,org.openmrs.customdatatype.datatype.BooleanDatatype,,,,
+c41f844e-a707-11e6-91e9-0800270d80ce,TRUE,,,,,,org.openmrs.customdatatype.datatype.RegexValidatedTextDatatype,,,,
