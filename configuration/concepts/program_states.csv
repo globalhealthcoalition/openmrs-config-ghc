@@ -1,0 +1,10 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:700
+5fd5ee56-9637-4dfc-9349-b4f9912b5f70,,,Need for Surgery,Need for Surgery,,Misc,N/A,,,,,,,,,,,
+35e5003f-f187-4ab4-9fb1-177f1dea0af8,,,Outside referral with specialty,Outside referral with specialty,,Misc,N/A,,,,,,,,,,,
+0100bc46-05d9-40f7-adb3-f5188b95ac5b,,,Urgent follow up,Urgent follow up,,Misc,N/A,,,,,,,,,,,
+d743b081-b6c5-454f-967d-683dddaa9789,,,Routine follow up,Routine follow up,,Misc,N/A,,,,,,,,,,,
+e55dc698-64e2-4f76-9fce-58cbe1204cf6,,,Need for Surgery (workflow),Need for Surgery (workflow),,Misc,N/A,,,,,,,,,,,
+360d7120-0d6a-45bd-875f-d870fbeab7d4,,,Urgent/ASAP,Urgent/ASAP,,Misc,N/A,,,,,,,,,,,
+a3d903f8-7e11-4245-a3a8-e70dd5ab28cd,,,Soon,Soon,,Misc,N/A,,,,,,,,,,,
+b6412837-430c-44c7-a9e8-ec8e4fd620d6,,,When possible,When possible,,Misc,N/A,,,,,,,,,,,
+9578ea7c-9bdf-4d78-b798-12371a03c288,,,Elective,Elective,,Misc,N/A,,,,,,,,,,,

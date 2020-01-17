@@ -5,6 +5,10 @@
       <value>false</value>
     </globalProperty>
     <globalProperty>
+      <property>concept.reasonForDeath</property>
+      <value>Reason For Death</value>
+    </globalProperty>
+    <globalProperty>
       <property>bahmni.extraPatientIdentifierTypes</property>
       <value>0d2ac572-8de3-46c8-9976-1f78899c599f</value>
     </globalProperty>
