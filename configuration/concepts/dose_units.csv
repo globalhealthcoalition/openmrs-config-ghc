@@ -29,4 +29,4 @@ Uuid,Void/Retire,Short name:en,Fully specified name:en,Data class,Data Type,Memb
 ,,,Tablespoon,Misc,N/A,,,
 ,,,Teaspoon,Misc,N/A,,,
 ,,,Dose Quantity Units,ConvSet,N/A,Ayurvedic;Tablet(s);Drop;Capsule(s);Jelly;Lotion;ml;Ointment;mg;IU;Powder;Solution;Spray;Unit(s);Cream;Gel;Inhaler;Injection;Syrup;Food Supplement;Tablespoon;Teaspoon;Puff(s);Tube(s);Packet;Application;Puff(s);Vial(s);Bottle(s),,
-,,,Dosing Units,ConvSet,N/A,Capsule(s);Tablet(s);ml;mg;IU;Drop;Tablespoon;Teaspoon;Unit(s);Puff(s);Tube(s),,
+,,,Dosing Units,ConvSet,N/A,Spray;Application;Packet;Bottle(s);Capsule(s);Inhaler;Tablet(s);ml;mg;Drop;Unit(s);Puff(s);Tube(s),,
