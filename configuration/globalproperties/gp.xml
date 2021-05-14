@@ -13,6 +13,10 @@
       <value>0d2ac572-8de3-46c8-9976-1f78899c599f</value>
     </globalProperty>
     <globalProperty>
+      <property>bahmni.primaryIdentifierType</property>
+      <value>81433852-3f10-11e4-adec-0800271c1b75</value>
+    </globalProperty>
+    <globalProperty>
       <property>bahmni.encountersession.duration</property>
       <value>600</value>
     </globalProperty>
@@ -35,6 +39,10 @@
     <globalProperty>
       <property>bahmniOfflineSync.addressEntriesSyncStrategy.locations</property>
       <value>[{"uuid":"a160b5df-b832-4f69-a32a-7a975ad639a7"}]</value>
+    </globalProperty>
+    <globalProperty>
+      <property>emr.concept.diagnosisSetOfSets</property>
+      <value>dbc2ecdb-4e14-11e4-8a57-0800271c1b75</value>
     </globalProperty>
   </globalProperties>
 </config>
