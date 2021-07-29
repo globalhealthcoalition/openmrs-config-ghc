@@ -2,9 +2,9 @@
 
 -----
 
-# OpenMRS config for the _San Pedro distribution_
+# OpenMRS config for the _GHC distribution_
 
-This is the OpenMRS backend configuration for the San Pedro distribution.
+This is the OpenMRS backend configuration for the GHC distribution.
 This configuration is designed to be loaded by
 - The [Initializer module](https://github.com/mekomsolutions/openmrs-module-initializer), and
 - The [Address Hierarchy module](https://github.com/openmrs/openmrs-module-addresshierarchy).
