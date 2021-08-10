@@ -1,0 +1,11 @@
+Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config
+a78d7f06-53cb-4aa2-a3d7-dacc3ce1b962,,Goldman Score,Goldman Score,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,440,,
+bcfdf947-93b8-4535-8d88-ea4f9301780f,,Consults Service,Consults Service,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,73307ef6-f23a-48bd-860e-8667f86f7cd9,,
+cc649b86-e2aa-4972-998e-d3b6b2949464,,Primary Care Service,Primary Care Service,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,417,,
+
+
+
+
+
+
+
