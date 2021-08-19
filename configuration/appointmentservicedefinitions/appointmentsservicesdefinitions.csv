@@ -1,13 +1,13 @@
-Uuid,Void/Retire,Name,Description,Duration,Start Time,End Time,Max Load,Speciality,Location,Label Colour,_order:1001
-df6dd5b2-ef7f-4fed-a73a-26b5cab6fb50,,Family practice,,,,,,,San Pedro,#09BC8A,
-5745ea90-04f2-446e-b294-cd6973039d75,,Internal medicine,,,,,,,San Pedro,#004346,
-b8e230e0-0bd1-435c-8669-a77b594d7e95,,Pediatrics,,,,,,,San Pedro,#172A3A,
-cc2457c6-9f9f-48fe-b73a-8ea5eb5abfa0,,Obstetrics/gynecology,,,,,,,San Pedro,#508991,
-9fcd8b83-e82b-40ac-a8df-3bcfa00f60ac,,Cardiology,,,,,,,San Pedro,#75DDDD,
-a991e9ec-6f12-4e7e-8c38-ec773daa36f0,,Dermatology,,,,,,,San Pedro,#020122,
-221e8582-55ae-4317-bfa0-f974c0303fb6,,Orthopedics,,,,,,,San Pedro,#F4442E,
-3bad7f21-a9e1-4d1c-a90e-411299a21bae,,General surgery,,,,,,,San Pedro,#FC9E4F,
-8741c9f7-f25a-40b9-a868-42b7a6cf0e25,,Otolaryngology,,,,,,,San Pedro,#EDD382,
-a884ccb8-232e-4e7d-8e62-ec7b5cca9244,,Urology,,,,,,,San Pedro,#F2F3AE,
-0b3f426f-2fc7-407f-8b40-9a5a67507f87,,Ophthalmology,,,,,,,San Pedro,#483D03,
-6a451bc5-010e-40a2-b940-a43b07d57651,,Dental,,,,,,,San Pedro,#646536,
+Uuid,Void/Retire,Name,Description,Duration,Start Time,End Time,Max Load,Speciality,Location,Label Colour
+df6dd5b2-ef7f-4fed-a73a-26b5cab6fb50,,Family practice,,,,,,,San Pedro,#09BC8A
+5745ea90-04f2-446e-b294-cd6973039d75,,Internal medicine,,,,,,,San Pedro,#004346
+b8e230e0-0bd1-435c-8669-a77b594d7e95,,Pediatrics,,,,,,,San Pedro,#172A3A
+cc2457c6-9f9f-48fe-b73a-8ea5eb5abfa0,,Obstetrics/gynecology,,,,,,,San Pedro,#508991
+9fcd8b83-e82b-40ac-a8df-3bcfa00f60ac,,Cardiology,,,,,,,San Pedro,#75DDDD
+a991e9ec-6f12-4e7e-8c38-ec773daa36f0,,Dermatology,,,,,,,San Pedro,#020122
+221e8582-55ae-4317-bfa0-f974c0303fb6,,Orthopedics,,,,,,,San Pedro,#F4442E
+3bad7f21-a9e1-4d1c-a90e-411299a21bae,,General surgery,,,,,,,San Pedro,#FC9E4F
+8741c9f7-f25a-40b9-a868-42b7a6cf0e25,,Otolaryngology,,,,,,,San Pedro,#EDD382
+a884ccb8-232e-4e7d-8e62-ec7b5cca9244,,Urology,,,,,,,San Pedro,#F2F3AE
+0b3f426f-2fc7-407f-8b40-9a5a67507f87,,Ophthalmology,,,,,,,San Pedro,#483D03
+6a451bc5-010e-40a2-b940-a43b07d57651,,Dental,,,,,,,San Pedro,#646536
