@@ -1,0 +1,12 @@
+Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:700
+718b4589-2a11-4355-b8dc-aa668a93e098,,,Negative,,,Misc,N/A,,,,,,,,,,,
+7acfafa4-f19b-485e-97a7-c9e002dbe37a,,,Positive,,,Misc,N/A,,,,,,,,,,,
+0a5d3d0a-eaad-4770-9d54-ae949a7e8a87,,,Normal,,,Misc,N/A,,,,,,,,,,,
+790f812a-e827-4766-b6bd-ef51c534882f,,,Trace,,,Misc,N/A,,,,,,,,,,,
+a6f85472-1bf5-4a05-bb38-7769ef3c6350,,,Small,,,Misc,N/A,,,,,,,,,,,
+3364e45c-e10d-4697-bb44-c26ff29a5e3a,,,Moderate,,,Misc,N/A,,,,,,,,,,,
+a0be77d9-3134-4877-b18a-f315f9c681f8,,,Large,,,Misc,N/A,,,,,,,,,,,
+67218dc9-aee7-40d1-ba78-d29dd2731333,,CIEL:1362,One plus,+,,Misc,N/A,,,,,,,,,,,
+55800eb1-4e0f-4a75-a12b-aa1e10c64e81,,CIEL:1363,Two plus,++,,Misc,N/A,,,,,,,,,,,
+17327c32-0a60-4f76-85b5-24379fc72ad5,,CIEL:1364,Three plus,+++,,Misc,N/A,,,,,,,,,,,
+f0853fb9-5541-4e13-b79a-e3b438a629cb,,CIEL:1365,Four plus,++++,,Misc,N/A,,,,,,,,,,,
