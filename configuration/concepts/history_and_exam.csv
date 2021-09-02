@@ -1,7 +1,7 @@
-Uuid,Void/Retire,Fully specified name:en,Short name:en,Description:en,Data class,Data type,Complex data handler,Answers,Members,_version:1,_order:600
-c3998f6b-3f10-11e4-adec-0800271c1b75,,History Notes,History Notes,,Misc,Text,,,,,
-c39a35e2-3f10-11e4-adec-0800271c1b75,,Examination Notes,Examination Notes,,Misc,Text,,,,,
-2e1b2486-9fa6-4b23-921e-583f67541731,,Assessment and Plan,Assessment and Plan,,Misc,Text,,,,,
-4fbf4b32-4411-436c-9c3b-1a907685a0a0,,Image,,,Image,Complex,ImageUrlHandler,,,,
-c3ae29e3-9836-4df9-bcef-8d01b776854d,,Consultation Images,,,Misc,N/A,,,4fbf4b32-4411-436c-9c3b-1a907685a0a0,,
-c393fd1d-3f10-11e4-adec-0800271c1b75,,History and Examination,History and Examination,,Misc,N/A,,,Chief Complaint Data; History Notes; Examination Notes; Assessment and Plan; Consultation Images,,
+Uuid,Void/Retire,Fully specified name:en,Fully specified name:es,Short name:en,Short name:es,Description:en,Data class,Data type,Complex data handler,Answers,Members,_version:1,_order:1600
+c3998f6b-3f10-11e4-adec-0800271c1b75,,History Notes,Notas de historia,History Notes,Notas de historia,,Misc,Text,,,,,
+c39a35e2-3f10-11e4-adec-0800271c1b75,,Examination Notes,Notas de examen,Examination Notes,Notas de examen,,Misc,Text,,,,,
+2e1b2486-9fa6-4b23-921e-583f67541731,,Assessment and Plan,Evaluación y plan,Assessment and Plan,Evaluación y plan,,Misc,Text,,,,,
+4fbf4b32-4411-436c-9c3b-1a907685a0a0,,Image,Imagen,,Imagen,,Image,Complex,ImageUrlHandler,,,,
+c3ae29e3-9836-4df9-bcef-8d01b776854d,,Consultation Images,Imágenes de consulta,,Imágenes de consulta,,Misc,N/A,,,4fbf4b32-4411-436c-9c3b-1a907685a0a0,,
+c393fd1d-3f10-11e4-adec-0800271c1b75,,History and Examination,Historia y examen,History and Examination,Historia y examen,,Misc,N/A,,,Chief Complaint Data; History Notes; Examination Notes; Assessment and Plan; Consultation Images,,
