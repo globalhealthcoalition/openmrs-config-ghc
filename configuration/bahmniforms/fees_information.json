@@ -1,0 +1,75 @@
+{
+    "formJson": {
+      "id": 9,
+      "uuid": "c35898ed-0dce-4834-9f4b-7a92f86f2d23",
+      "name": "Fee Information",
+      "version": "1",
+      "published": true,
+      "auditInfo": {
+        "creator": {
+          "uuid": "e58ab8ee-0f34-11ec-b90a-0242ac1d0008",
+          "display": "superman",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/e58ab8ee-0f34-11ec-b90a-0242ac1d0008"
+            }
+          ]
+        },
+        "dateCreated": "2021-09-06T17:12:29.000+0000",
+        "changedBy": {
+          "uuid": "e58ab8ee-0f34-11ec-b90a-0242ac1d0008",
+          "display": "superman",
+          "links": [
+            {
+              "rel": "self",
+              "uri": "http://openmrs:8080/openmrs/ws/rest/v1/user/e58ab8ee-0f34-11ec-b90a-0242ac1d0008"
+            }
+          ]
+        },
+        "dateChanged": "2021-09-06T17:12:37.000+0000"
+      },
+      "resources": [
+        {
+          "value": "{\"name\":\"Fee Information\",\"id\":9,\"uuid\":\"c35898ed-0dce-4834-9f4b-7a92f86f2d23\",\"defaultLocale\":\"en\",\"controls\":[{\"type\":\"obsGroupControl\",\"label\":{\"translationKey\":\"FEE_INFORMATION_1\",\"type\":\"label\",\"value\":\"Fee Information\",\"id\":\"1\"},\"properties\":{\"addMore\":false,\"location\":{\"column\":0,\"row\":0}},\"id\":\"1\",\"concept\":{\"name\":\"Fee Information\",\"uuid\":\"c446af3d-3f10-11e4-adec-0800271c1b75\",\"datatype\":\"N/A\",\"conceptClass\":\"ConvSet\",\"conceptHandler\":null,\"set\":true,\"setMembers\":[{\"name\":\"Registration Fees\",\"uuid\":\"c366184c-3f10-11e4-adec-0800271c1b75\",\"datatype\":\"Numeric\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":false}},{\"name\":\"Comments\",\"uuid\":\"c3659bf9-3f10-11e4-adec-0800271c1b75\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}}]},\"controls\":[{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"REGISTRATION_FEES_2\",\"id\":\"2\",\"units\":\"\",\"type\":\"label\",\"value\":\"Registration Fees\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"row\":0,\"column\":0}},\"id\":\"2\",\"concept\":{\"name\":\"Registration Fees\",\"uuid\":\"c366184c-3f10-11e4-adec-0800271c1b75\",\"datatype\":\"Numeric\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":false}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null},{\"type\":\"obsControl\",\"label\":{\"translationKey\":\"COMMENTS_3\",\"id\":\"3\",\"units\":\"\",\"type\":\"label\",\"value\":\"Comments\"},\"properties\":{\"mandatory\":false,\"notes\":false,\"addMore\":false,\"hideLabel\":false,\"controlEvent\":false,\"location\":{\"row\":1,\"column\":0}},\"id\":\"3\",\"concept\":{\"name\":\"Comments\",\"uuid\":\"c3659bf9-3f10-11e4-adec-0800271c1b75\",\"datatype\":\"Text\",\"conceptClass\":\"Misc\",\"conceptHandler\":null,\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null,\"answers\":[],\"properties\":{\"allowDecimal\":null}},\"units\":null,\"hiNormal\":null,\"lowNormal\":null,\"hiAbsolute\":null,\"lowAbsolute\":null}]}],\"events\":{\"onFormSave\":\"\",\"onFormInit\":\"\"},\"translationsUrl\":\"/openmrs/ws/rest/v1/bahmniie/form/translations\",\"privilege\":[]}",
+          "dataType": "org.bahmni.customdatatype.datatype.FileSystemStorageDatatype",
+          "uuid": "dad9d427-149e-4e4c-ba2b-1ca1112656ba"
+        },
+        {
+          "value": "[{\"display\":\"Fee Information\",\"locale\":\"en\"},{\"display\":\"Fee Information\",\"locale\":\"es\"}]",
+          "dataType": "org.bahmni.customdatatype.datatype.FormNameTranslationDatatype",
+          "uuid": "59b2a5e3-f87e-49d6-a024-24b114e1b8e7"
+        }
+      ]
+    },
+    "translations": [
+      {
+        "locale": "en",
+        "labels": {},
+        "concepts": {
+          "FEE_INFORMATION_1": "Fee Information",
+          "REGISTRATION_FEES_2": "Registration Fees",
+          "COMMENTS_3": "Comments"
+        },
+        "formName": "Fee Information",
+        "formUuid": "c35898ed-0dce-4834-9f4b-7a92f86f2d23",
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      },
+      {
+        "locale": "es",
+        "labels": {},
+        "concepts": {
+          "FEE_INFORMATION_1": "Información de tarifas",
+          "REGISTRATION_FEES_2": "Tarifa de registración",
+          "COMMENTS_3": "Comentarios"
+        },
+        "formName": "Fee Information",
+        "formUuid": "c35898ed-0dce-4834-9f4b-7a92f86f2d23",
+        "version": "1",
+        "referenceVersion": null,
+        "referenceFormUuid": null
+      }
+    ]
+  }
