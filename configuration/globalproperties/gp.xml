@@ -21,7 +21,7 @@
       <value>600</value>
     </globalProperty>
     <globalProperty>
-      <property>emrapi.sqlSearch.patientsActiveInPrograms</property>
+      <property>emrapi.sqlSearch.patientsEnrolledInPrograms</property>
       <value>select
         distinct concat(pn.given_name, ' ', ifnull(pn.family_name, '')) as name,
         pi.identifier as identifier,
