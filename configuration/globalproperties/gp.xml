@@ -30,7 +30,8 @@
     </globalProperty>
     <globalProperty>
       <property>emrapi.sqlSearch.todayQueue</property>
-      <value>SELECT DISTINCT concat(pn.given_name, ' ', pn.family_name) AS name, pi.identifier AS identifier,  concat("", p.uuid) AS uuid,  concat("", v.uuid) AS activeVisitUuid, date_format(v.date_started,'%b %d %Y %H:%i') AS 'Registration time' FROM visit v JOIN person_name pn ON v.patient_id = pn.person_id AND date(v.date_started) = curdate() AND pn.voided = 0 and v.date_stopped is null and v.voided = 0 JOIN patient_identifier pi ON v.patient_id = pi.patient_id JOIN person p ON p.person_id = v.patient_id GROUP BY p.person_id ORDER BY v.date_started asc;</value>
+      <value>SELECT DISTINCT concat(pn.given_name, ' ', pn.family_name) AS name, pi.identifier AS identifier,  concat("", p.uuid) AS uuid,  concat("", v.uuid) AS activeVisitUuid, date_format(v.date_started,'%b %d %Y %H:%i') AS 'Registration time' FROM visit v JOIN person_name pn ON v.patient_id = pn.person_id AND date(v.date_started) = curdate() AND pn.voided = 0 and v.date_stopped is null and v.voided = 0 JOIN patient_identifier pi ON v.patient_id = pi.patient_id JOIN patient_identifier_type pit on pi.identifier_type = pit.patient_identifier_type_id
+        JOIN global_property gp on gp.property="bahmni.primaryIdentifierType" and gp.property_value=pit.uuid JOIN person p ON p.person_id = v.patient_id GROUP BY p.person_id ORDER BY v.date_started asc;</value>
     </globalProperty>
     <globalProperty>
       <property>bahmniOfflineSync.strategy</property>
