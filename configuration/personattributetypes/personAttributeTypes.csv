@@ -11,4 +11,4 @@ ba2a0f11-d30e-405a-a9c0-6423e57c3cd9,,thirdContactName,Third Contact Name,java.l
 57a131af-603a-4570-b3ad-0737fd1561c8,,civilStatus,Estado Civil,org.openmrs.Concept,9fc3f4bd-2f4e-41b8-8e8e-10b0d3e64424,,,
 ,TRUE,givenNameLocal,,,,,,
 ,TRUE,familyNameLocal,,,,,,
-,TRUE,middleNameLocal,,,,,," "
+,TRUE,middleNameLocal,,,,,,
