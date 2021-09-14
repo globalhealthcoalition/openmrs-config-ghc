@@ -9,3 +9,6 @@ c1f4a004-3f10-11e4-adec-0800271c1b75,,education,Education Details,org.openmrs.Co
 ba2a0f11-d30e-405a-a9c0-6423e57c3cd9,,thirdContactName,Third Contact Name,java.lang.String,,,,
 440faa7b-9dc9-4da8-90b0-07625900f3bc,,thirdContact,Third Phone Number,java.lang.String,,TRUE,,
 57a131af-603a-4570-b3ad-0737fd1561c8,,civilStatus,Estado Civil,org.openmrs.Concept,9fc3f4bd-2f4e-41b8-8e8e-10b0d3e64424,,,
+,TRUE,givenNameLocal,,,,,,
+,TRUE,familyNameLocal,,,,,,
+,TRUE,middleNameLocal,,,,,,
