@@ -39,7 +39,7 @@
         join location l on v.location_id = l.location_id
         join patient_program pp on v.patient_id = pp.patient_id
     where
-        v.voided = 0 AND pp.date_enrolled is not null AND pp.date_completed is null;</value>
+        v.voided = 0 AND pp.voided = 0 AND pp.date_enrolled is not null AND pp.date_completed is null;</value>
     </globalProperty>
     <globalProperty>
       <property>emrapi.sqlSearch.drugOrderPatients</property>
