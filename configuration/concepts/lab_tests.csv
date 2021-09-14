@@ -69,7 +69,7 @@ a24afd60-b6b6-4b7e-82b4-dc599ce62ead,,,Rapid HIV,VIH rápido,VIH rápido,Rapid H
 dbff115d-32df-4bd5-8265-832e1f3cbe5e,,,Fasting blood glucose,Glucosa en sangre en ayunas,Glucosa en sangre en ayunas,Fasting blood glucose,,LabTest,Numeric,,,,Yes,mg/dL,70,126,,,,
 3a7aefbf-3334-4add-88a0-42ee1c6fd8dd,,,Random blood glucose,Glucosa en sangre aleatoria,Glucosa en sangre aleatoria,Random blood glucose,,LabTest,Numeric,,,,Yes,mg/dL,70,180,,,,
 df5686c1-ad0c-4deb-9919-f77446fd5bb9,,,HbA1C,HbA1C,HbA1C,HbA1C,,LabTest,Numeric,,,,Yes,%,4,6.5,,,,
-1e3e425c-eee2-4d61-8652-dd20239ec159,,,Hemoglobin,Hemoglobina,Hemoglobina,Hemoglobin,,LabTest,Text,,,,,,,,,,,
+1e3e425c-eee2-4d61-8652-dd20239ec159,,,Hemoglobin,Hemoglobina,Hemoglobina,Hemoglobin,,LabTest,Numeric,,,,,,,,,,,
 3f330744-e90c-4a32-9048-07dd255782eb,,,Rapid malaria,Paludismo rápido,Paludismo rápido,Rapid malaria,,LabTest,Coded,,Positive; Negative;,,,,,,,,,
 571e8f4f-4d98-40eb-bd55-c88b8a8ab76d,,,Urine pregnancy test,Prueba de embarazo en orina,Prueba de embarazo en orina,Urine pregnancy test,,LabTest,Coded,,Positive; Negative;,,,,,,,,,
 ab5a7664-ce92-418f-96cb-7a9e0ce9d655,,,EKG,EKG,EKG,EKG,,LabTest,Text,,,,,,,,,,,
