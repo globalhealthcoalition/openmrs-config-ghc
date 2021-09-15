@@ -1,4 +1,4 @@
-Uuid,Void/Retire,Name,Description,Duration,Start Time,End Time,Max Load,Speciality,Location,Label Colour
+Uuid,Void/Retire,Name,Description,Duration,Start Time,End Time,Max Load,Speciality,Location,Label Colour_order:500
 df6dd5b2-ef7f-4fed-a73a-26b5cab6fb50,,Family practice,,,,,,,OWS DR Medical Center,#09BC8A
 5745ea90-04f2-446e-b294-cd6973039d75,,Internal medicine,,,,,,,OWS DR Medical Center,#004346
 b8e230e0-0bd1-435c-8669-a77b594d7e95,,Pediatrics,,,,,,,OWS DR Medical Center,#172A3A
@@ -11,3 +11,15 @@ a991e9ec-6f12-4e7e-8c38-ec773daa36f0,,Dermatology,,,,,,,OWS DR Medical Center,#0
 a884ccb8-232e-4e7d-8e62-ec7b5cca9244,,Urology,,,,,,,OWS DR Medical Center,#F2F3AE
 0b3f426f-2fc7-407f-8b40-9a5a67507f87,,Ophthalmology,,,,,,,OWS DR Medical Center,#483D03
 6a451bc5-010e-40a2-b940-a43b07d57651,,Dental,,,,,,,OWS DR Medical Center,#646536
+6ea7c882-3195-4cf6-a8e6-bb1f6e5fb848,,Family practice,,,,,,,Holy Family Surgical Center,#09BC8A
+34801c68-1a11-46a8-8691-bd0e1a7d4d2c,,Internal medicine,,,,,,,Holy Family Surgical Center,#004346
+b9cf1980-75bc-44cc-8cc0-5099f01fa758,,Pediatrics,,,,,,,Holy Family Surgical Center,#172A3A
+bcef64dc-0800-4e42-b315-7460a0155b92,,Obstetrics/gynecology,,,,,,,Holy Family Surgical Center,#508991
+64f092ae-0819-42b5-a1b4-6be47cb743c8,,Cardiology,,,,,,,Holy Family Surgical Center,#75DDDD
+15c90b31-143d-4112-a3f3-82d5653cc4a5,,Dermatology,,,,,,,Holy Family Surgical Center,#020122
+66fb67cb-94c0-41e6-848d-e7da4a0038ba,,Orthopedics,,,,,,,Holy Family Surgical Center,#F4442E
+f6f96a60-7fd1-4da0-b38a-bd71f1118adf,,General surgery,,,,,,,Holy Family Surgical Center,#FC9E4F
+4500cfa2-c98c-41c1-9020-a285a6b5fbd1,,Otolaryngology,,,,,,,Holy Family Surgical Center,#EDD382
+42b37ea9-b9d8-4bd2-986b-de529d8740dc,,Urology,,,,,,,Holy Family Surgical Center,#F2F3AE
+b1b4275c-ee50-4cbe-90f8-54f306d3db06,,Ophthalmology,,,,,,,Holy Family Surgical Center,#483D03
+ecc4c00e-fc6d-4015-bd01-b9e0b0fa32c9,,Dental,,,,,,,Holy Family Surgical Center,#646536

@@ -1,3 +1,4 @@
-Uuid,Void/Retire,Name,Description,Parent,Tags,Address1,Address2,Address3,Address4,Address5,Address6,City/Village,County/District,State/Province,Postal Code,Country
+Uuid,Void/Retire,Name,Description,Parent,Tags,Address1,Address2,Address3,Address4,Address5,Address6,City/Village,County/District,State/Province,Postal Code,Country,_order:500
 36bf4d2a-cb35-4eb2-a599-762e04a0be77,,OWS DR Medical Center,,,Login Location; Visit Location; Appointment Location,,,,,,,,,,,
+54feae30-b641-4446-9759-1a76f5718103,,Holy Family Surgical Center,,,Login Location; Visit Location; Appointment Location,,,,,,,,,,,
 74dd3d32-db06-11e9-b001-0242ac110002,,OT,Operation Theater,,Operation Theater,,,,,,,,,,,
