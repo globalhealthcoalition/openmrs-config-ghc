@@ -1,4 +1,5 @@
 Uuid,Void/Retire,Same as mappings,Fully specified name:en,Fully specified name:es,Short name:en,Short name:es,Description:en,Data class,Data type,Complex data handler,Answers,Members,Allow decimals,Units,Normal low,Normal high,Absolute low,Absolute high,_version:1,_order:1700
+f412690e-465d-4c5a-a32f-d22e90ef2e20,,,Presence of Symptoms,Presencia de síntomas,Presence of Symptoms,Presencia de síntomas,,Question,Coded,,Yes; No,,,,,,,,,
 2395de62-f5a6-49b6-ab0f-57a21a9029c1,,,Sneezing,Estornudos,Sneezing,Estornudos,,Misc,N/A,,,,,,,,,,,
 2c75944e-5fc5-4d9d-b389-fe878fde38e3,,,Sore throat or pain with swallowing,Dolor de garganta o dolor al tragar,Sore throat or pain with swallowing,Dolor de garganta o dolor al tragar,,Misc,N/A,,,,,,,,,,,
 40829791-1535-4c02-9b6f-e97dd1a516f6,,,Loss of taste,Pérdida del gusto,Loss of taste,Pérdida del gusto,,Misc,N/A,,,,,,,,,,,
