@@ -57,7 +57,7 @@ f68f2b5c-ed13-461f-85af-75d8181e46a0,,,Prolactin,Prolactina,Prolactina,Prolactin
 69002605-2643-44d0-8ba9-ef4b149b9fc6,,,Sex Hormones,Hormonas sexuales,Hormonas sexuales,Sex Hormones,,LabTest,Numeric,,,,,,,,,,,
 de1aaaa4-75e8-4b9b-ada7-b7cc3fd9e56b,,,Urine culture,Cultura Urina,Cultura Urina,Urine culture,,LabTest,Coded,,Positive; Negative,,,,,,,,,
 9656622a-21f3-4f8e-aaa4-b476a5ba79f4,,,PH,PH,PH,PH,,LabTest,Numeric,,,,Yes,%,4.5,8.0,,,,
-c06c6c8a-21d6-4fc4-a156-2751065eaea2,,,Specific gravity,Gravedad específica,Gravedad específica,Specific gravity,,LabTest,Numeric,,,,Yes,%,,,1.000,1.025,,
+c06c6c8a-21d6-4fc4-a156-2751065eaea2,,,Specific gravity,Gravedad específica,Gravedad específica,Specific gravity,,LabTest,Numeric,,,,Yes,%,1.000,1.025,,,,
 9c479161-ecfe-4ae7-8847-849230555733,,,Glucose,Glucosa,Glucosa,Glucose,,LabTest,Coded,,Normal; Trace; One plus; Two plus; Three plus,,,,,,,,,
 d5916150-d329-467d-98da-44fb38709ad8,,,Ketones,Cetonas,Cetonas,Ketones,,LabTest,Coded,,Negative; Trace; Small; Moderate; Large,,,,,,,,,
 5ab77d08-b8e1-4046-87d5-2fbe93686dc5,,,Nitrites,Nitritos,Nitritos,Nitrites,,LabTest,Coded,,Negative; One plus; Two plus,,,,,,,,,
