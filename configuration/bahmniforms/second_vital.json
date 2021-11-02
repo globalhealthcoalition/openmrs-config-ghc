@@ -68,10 +68,10 @@
         "DIASTOLIC_4": "Diastólica",
         "SYSTOLIC_3": "Sistólica",
         "BLOOD_PRESSURE_2": "Presión sanguínea",
-        "TEMPERATURE_5": "La temperatura",
+        "TEMPERATURE_5": "Temperatura",
         "OXYGEN_SATURATION_7": "Saturación de oxígeno",
-        "RESPIRATORY_RATE_6": "La frecuencia respiratoria",
-        "PULSE_1": "Legumbres"
+        "RESPIRATORY_RATE_6": "Frecuencia respiratoria",
+        "PULSE_1": "Pulso"
       },
       "formName": "Second Vitals",
       "formUuid": "b4f52108-fd2b-4a09-896c-7a5e1c4e7e10",

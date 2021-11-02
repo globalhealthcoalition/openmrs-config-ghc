@@ -87,7 +87,7 @@
           "RESPIRATORY_RATE_4": "RR",
           "ALLERGIES_12": "Alergias",
           "HEIGHT_8": "Altura",
-          "PULSE_1": "Legumbres"
+          "PULSE_1": "Pulso"
         },
         "formName": "Intake",
         "formUuid": "52f39eef-3cd2-4d91-89f6-7f9f0219cadd",
