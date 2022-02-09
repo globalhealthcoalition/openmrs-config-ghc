@@ -1,8 +1,8 @@
 Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype classname,Datatype config,Preferred handler classname,Handler config,_order:1000
 9ebd4777-820a-49a9-917d-4d1133b6cf64,,Program,Goldman Score,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,a20c6c3b-d504-43e8-9ced-bbf788a1f9a8,,,
 1d762dcb-186a-4b4c-89fd-5c6419cf22c6,,Program,Consults Service,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,b392a997-15b7-44b4-819b-8f8db23047aa,,,
-50e338d4-fae2-4c99-b57e-475e8f23321d,,Program,Primary Care Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,5f16a893-d300-4634-9c45-9485be023f98,,,
+50e338d4-fae2-4c99-b57e-475e8f23321d,,Program,Primary Care Service,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,5f16a893-d300-4634-9c45-9485be023f98,,,
 fdd3754d-a069-4e54-8938-22b6492cb2b6,,Program,Priority 1,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,d47ce963-77fa-494a-ab37-7f0806d41ecb,,,
 6228d457-b9ec-46eb-a15c-9ca07c357352,,Program,Priority 2,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,c69ff88e-309b-41a0-99ae-5eb58dfc5966,,,
 fd5a4ad0-b527-49ce-b001-3bd6e565783c,,Program,Priority 3,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8a6d5b95-ac55-41c2-b27e-ce18012bf962,,,
-3a052d8a-395a-4621-99bf-48a6527336e6,,"Program ",Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8546be29-e249-4d1a-8f5c-abe0fb941d4a,,,
+3a052d8a-395a-4621-99bf-48a6527336e6,,Program,Primary Care Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8546be29-e249-4d1a-8f5c-abe0fb941d4a,,,
