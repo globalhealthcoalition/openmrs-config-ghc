@@ -5,6 +5,10 @@
       <value>false</value>
     </globalProperty>
     <globalProperty>
+      <property>emrapi.visitExpireHours</property>
+      <value>0</value>
+    </globalProperty>
+    <globalProperty>
       <property>concept.reasonForDeath</property>
       <value>Reason For Death</value>
     </globalProperty>
