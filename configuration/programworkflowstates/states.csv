@@ -1,8 +1,8 @@
 Uuid,Void/Retire,Workflow,State concept,Initial,Terminal,_order:1003
-c2f02ae0-489c-4929-93c6-c111db2bae22,,Need for Surgery (workflow),Urgent/ASAP,,,
-657ba194-9f10-49df-ae38-079f52cf375a,,Need for Surgery (workflow),Soon,,,
-81fdbbdc-81a4-48df-8a4b-72860574f0eb,,Need for Surgery (workflow),When possible,,,
-e7598cb6-29fb-4045-940d-cba5ddac7b4d,,Need for Surgery (workflow),Elective,,,
+c2f02ae0-489c-4929-93c6-c111db2bae22,,Need for Surgery (workflow),1.Urgent/ASAP,,,
+657ba194-9f10-49df-ae38-079f52cf375a,,Need for Surgery (workflow),2.Soon,,,
+81fdbbdc-81a4-48df-8a4b-72860574f0eb,,Need for Surgery (workflow),3.When possible,,,
+e7598cb6-29fb-4045-940d-cba5ddac7b4d,,Need for Surgery (workflow),4.Elective,,,
 39a36cb8-d0e6-430d-a34d-311705785140,,Pre-operative clearance (workflow),Needs clearance,,,
 405be75f-43f7-464c-becd-2e2de70dfe18,,Pre-operative clearance (workflow),Cleared for surgery,,,
 58367151-4adc-42ad-96f2-88d4a93238ea,,Pre-operative clearance (workflow),Not cleared,,,
