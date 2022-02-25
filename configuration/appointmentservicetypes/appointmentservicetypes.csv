@@ -1,0 +1,13 @@
+Uuid,Void/Retire,Name,Service definition,Duration
+9afa9a6b-54bc-49af-9be7-6c62d7be1436,,"Follow up ",New Patient,
+db98cfaf-151c-4d89-8a0b-c9cfb49ba230,,Post-operative visit,New Patient,
+ddfc1154-3723-4f2d-8d4e-4769aec81f9c,,Previous Surgical Patient,New Patient,
+c3214934-848b-46bf-9268-a08aaea6b711,,Acute primary care visit,New Patient,
+f49c95a3-fa94-4c1b-b2b1-09bf7dd8cc70,,Follow up primary care visit,New Patient,
+8a015cb1-faaa-4e8a-b468-13bcc60997cd,,Ongoing primary care visit,New Patient,
+d44827cc-67d6-4872-8ac4-55eb077c76a5,,"Surgical Optimization ",New Patient,
+75000b16-ce7e-4e67-ae96-50b595fc14c5,,Primary care,New Patient,
+e773d253-adde-4645-babb-a85b1336addb,,Clearance,New Patient,
+586528c1-ec6d-4cff-8887-78a668d4f83c,,Non-Surgical Patient,New Patient,
+77047c38-9704-4d7b-a062-06b5b63da7f3,,New Problem,New Patient,
+2f0f0fde-7582-40c3-9960-2d2b57e075b9,,First Visit,New Patient,
