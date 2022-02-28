@@ -4,7 +4,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Fully sp
 e3a3ff33-583f-4a4e-b2ab-3e95ccbb24f2,,,Cyclic,Cyclic,Cíclico,Cíclico,,Misc,N/A,,,,,,,,,,,
 e21bc895-e3c5-429f-85cb-2c9524edd0fa,,,Non Cyclic,Non Cyclic,No cíclico,No cíclico,,Misc,N/A,,,,,,,,,,,
 c23d4502-1798-42ad-9cb6-e35d94e782a9,,,Presence of Breast Lump,Breast Lump,Presencia de bulto en el seno,Bulto en el pecho,,Misc,Coded,,Yes; No,,,,,,,,,
-,,,Presence of Breast Pain,Breast Pain,Presencia de dolor de mama,Dolor en los senos,,Misc,Coded,,Yes; No,,,,,,,,,
+d2f7989a-73c4-46ee-a609-5c5da9393d50,,,Presence of Breast Pain,Breast Pain,Presencia de dolor de mama,Dolor en los senos,,Misc,Coded,,Yes; No,,,,,,,,,
 57dfa129-bcfe-456e-9ef6-5c53925becad,,,Nature of Breast Pain,Nature of Breast Pain,Dolor en los senos,Dolor en los senos,,Misc,Coded,,Cyclical; Non-Cyclical,,,,,,,,,
 77e70e54-f636-4f3c-b41a-8ea923d0ee35,,,Discharge,Discharge,Descarga,Descarga,,Misc,Coded,,Yes; No,,,,,,,,,
 de1cfa19-364b-4ed7-bef8-017ae68143f5,,,Inversion,Inversion,inversión,inversión,,Misc,Coded,,Yes; No,,,,,,,,,
