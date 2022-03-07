@@ -12,7 +12,7 @@ c008e854-39ec-4ef8-8d8e-a7ddf6a3bfa4,,Screw,Screw,Tornillo,Tornillo,,Misc,Numeri
 da181d9b-93a4-4765-8bd4-68031dbf509a,,Cast,Cast,Emitir,Emitir,,Misc,Text,,,,
 2651f961-d203-4a57-9b10-400f21c50a76,,Splint,Splint,Entablillar,Entablillar,,Misc,Text,,,,
 5d45819e-f419-496d-8fe7-59903c01ecb3,,Consevative Management,Consevative Management,Gestión conservadora,Gestión conservadora,,ConvSet,N/A,,Cast; Splint,,
-f7d0c35f-5d82-457d-a7f3-91f42720ff26,,Days in Hospital,Days in Hospital,Días en el Hospital,Días en el Hospital,,Misc,Text,,,,
+f7d0c35f-5d82-457d-a7f3-91f42720ff26,,Days in Hospital,Days in Hospital,Días en el Hospital,Días en el Hospital,,Misc,Numeric,,,,
 a17a9a77-0361-459d-ad29-4d7917595e16,,Active Fistula,Active Fistula,fístula activa,fístula activa,,Misc,Coded,Yes; No,,,
 447ff665-bb8f-47c1-bd20-75c3980059db,,Skin Integrity,Skin Integrity,Integridad de la piel,Integridad de la piel,,Misc,Coded,Yes; No,,,
 9a61e08c-b98c-4723-a326-7ec6a6a5f38e,,Bone Exposure,Bone Exposure,Exposición ósea,Exposición ósea,,Misc,Coded,Yes; No,,,
