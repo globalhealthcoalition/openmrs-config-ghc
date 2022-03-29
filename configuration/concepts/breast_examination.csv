@@ -19,4 +19,4 @@ fd663c44-a73a-4dfa-ac1f-655281b09510,,,Imaging,Imaging,Imágenes,Imágenes,,Conv
 190ce45c-7f83-4164-bc45-d8381aa0bf9c,,,Other Observations,Other Observations,Otras observaciones,Otras observaciones,,Misc,Text,,,,,,,,,,,
 5a26ef2b-ed1e-4b7f-aea6-a0dc7a39804f,,,Breast History,Breast History,Historia de los senos,Historia de los senos,,ConvSet,N/A,,,History of Breast Issues;Seen previously by MD;Diagnosis;Previous Treatment,,,,,,,,
 9f0ab07d-07cb-46c2-85b1-8f15c24fc61d,,,Breast Lump History,Breast Lump History,Historial de bultos en los senos,Historial de bultos en los senos,,ConvSet,N/A,,,Presence of Breast Lump;Anatomical Position;Duration;Time Units,,,,,,,,
-f51d5326-3de6-4473-9afa-6f8273dac17f,,,Breast Pain History,Breast Pain History,Historial de dolor de senos,Historial de dolor de senos,,ConvSet,N/A,,,Presence of Breast Lump;Nature of Breast Pain,,,,,,,,
+f51d5326-3de6-4473-9afa-6f8273dac17f,,,Breast Pain History,Breast Pain History,Historial de dolor de senos,Historial de dolor de senos,,ConvSet,N/A,,,Presence of Breast Pain;Nature of Breast Pain,,,,,,,,
