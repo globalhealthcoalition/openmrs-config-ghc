@@ -15,7 +15,7 @@ adca267e-a622-4b2d-bd92-e68dad4abdc6,,,History of Breast Issues,History of Breas
 db4ce47b-052d-4c90-892f-bb7f13115e8e,,,Seen previously by MD,Seen previously by MD,Visto anteriormente por MD,Visto anteriormente po MD,,Misc,Coded,,Yes; No,,,,,,,,,
 ff0db523-f7b5-4d36-95cf-a25a74672fc0,,,Diagnosis,Diagnosis,Diagnóstico,Diagnóstic,,Misc,Text,,,,,,,,,,,
 f5b35153-76f7-468c-bc39-f44c942f154b,,,Previous Treatment,Previous Treatment,Tratamiento previo,Tratamiento prevo,,Misc,Text,,,,,,,,,,,
-fd663c44-a73a-4dfa-ac1f-655281b09510,,,Imaging,Imaging,Imágenes,Imágenes,,ConvSet,N/A,,,Previous Imaging;Type of Breast Imaging;Date;Results,,,,,,,,
+fd663c44-a73a-4dfa-ac1f-655281b09510,,,Imaging,Imaging,Imágenes,Imágenes,,ConvSet,N/A,,,Previous Imaging;Type of Breast Imaging;Date;0c510fac-1318-4e27-8eab-27cbb3a548ae,,,,,,,,
 190ce45c-7f83-4164-bc45-d8381aa0bf9c,,,Other Observations,Other Observations,Otras observaciones,Otras observaciones,,Misc,Text,,,,,,,,,,,
 5a26ef2b-ed1e-4b7f-aea6-a0dc7a39804f,,,Breast History,Breast History,Historia de los senos,Historia de los senos,,ConvSet,N/A,,,History of Breast Issues;Seen previously by MD;Diagnosis;Previous Treatment,,,,,,,,
 4d0218fd-b481-4901-a21a-392ee7e86ba6,,,Breast Lump Details,Breast Lump Details,Detalles del bulto mamario,Detalles del bulto mamario,,ConvSet,N/A,,,Anatomical Position;Duration;Time Units,,,,,,,,
