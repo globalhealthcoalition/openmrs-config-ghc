@@ -5,5 +5,6 @@ Uuid,Void/Retire,Entity name,Name,Description,Min occurs,Max occurs,Datatype cla
 fdd3754d-a069-4e54-8938-22b6492cb2b6,,Program,Priority 1,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,d47ce963-77fa-494a-ab37-7f0806d41ecb,,,
 6228d457-b9ec-46eb-a15c-9ca07c357352,,Program,Priority 2,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,c69ff88e-309b-41a0-99ae-5eb58dfc5966,,,
 fd5a4ad0-b527-49ce-b001-3bd6e565783c,,Program,Priority 3,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8a6d5b95-ac55-41c2-b27e-ce18012bf962,,,
+21a3b075-44f0-43d9-b806-5662953bbc92,,Program,Procedure,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,0c401acb-5188-4bb5-8f6b-e5fbc28a6abf,,,
 3a052d8a-395a-4621-99bf-48a6527336e6,,Program,Primary Care Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8546be29-e249-4d1a-8f5c-abe0fb941d4a,,,
 0e45c8c0-bfc7-4b12-9e76-179e930c245a,,Program,Needs Surgery Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,73f2992c-0375-4a3a-be22-c6a4b45d0621,,,
