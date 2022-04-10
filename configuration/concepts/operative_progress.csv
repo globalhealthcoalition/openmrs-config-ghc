@@ -11,7 +11,7 @@ acda413c-56cc-48ab-825d-af58cb947f15,,,Assistants,Assistants,Asistentes,Asistent
 20fafddb-bfd4-421e-acfb-639454741e94,,,Intravenous Block,IV Block,Bloque intravenoso,bloque CI,,,Misc,N/A,,,,,,,,,,,
 3dbb2d82-ee96-43a5-a905-0401c2d8b1a9,,,Local Anesthesia and Sedation,Local Anesthesia & Sedation,Anestesia local y Sedación,Anestesia local y Sedación,,,Misc,N/A,,,,,,,,,,,
 ea6ac7de-d7cf-4105-aadb-b1e489536a7e,,,Local Anesthesia,Local Anesthesia,Anestesia local,Anestesia local,,,Misc,N/A,,,,,,,,,,,
-3017f680-5c3c-4f7b-94e1-6afda9e07eaf,,,Anesthesia Type,Anesthesia Type,Tipo de anestesia,Tipo de anestesia,,,Misc,Coded,,General; Monitored Anesthesia Care; Knee Block; Axillary Block; Interscalene Block; Intravenous Block; Local anesthesia and Sedation,,,,,,,,,
+3017f680-5c3c-4f7b-94e1-6afda9e07eaf,,,Anesthesia Type,Anesthesia Type,Tipo de anestesia,Tipo de anestesia,,,Misc,Coded,,General; Monitored Anesthesia Care; Knee Block; Axillary Block; Interscalene Block; Intravenous Block; Local anesthesia and Sedation;Local Anesthesia,,,,,,,,,
 b5ab7bc0-bffb-4dc8-b832-2e1713f06944,,,Estimated Blood Loss,EBL,Pérdida de sangre estimada,LBE,,,Misc,Numeric,,,,,mls,,,,,,
 64fe56e6-5b52-4cdb-adc2-b6d50bfdee63,,,Complications,Complications,Complicaciones,Complicaciones,,,Misc,Text,,,,,,,,,,,
 08f1f638-b3c7-4040-8ae9-c95a5df59755,,,Specimens,Spcmns,especímenes,Spcmns,,,Misc,Text,,,,,,,,,,,
