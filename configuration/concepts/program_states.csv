@@ -5,7 +5,7 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Descript
 8fd66679-0470-41c0-a3aa-3efb2d16c94f,,,Cita Abierta,Cita Abierta,,Misc,N/A,,,,,,,,,,,
 d5da49db-f288-4aaa-931e-9be1f970b8b3,,,Pre-operative clearance,Pre-operative clearance,,Misc,N/A,,,,,,,,,,,
 6dbbdb16-0cef-4b84-ab87-44f7cfa9d078,,,Consults,Consults,,Misc,N/A,,,,,,,,,,,
-239601f2-e170-4414-87a9-de817a109aba,,,Primary Care,Primary Care,,Misc,N/A,,,,,,,,,,,
+239601f2-e170-4414-87a9-de817a109aba,Yes,,Primary Care,Primary Care,,Misc,N/A,,,,,,,,,,,
 ff2934e4-9c97-4538-8bfa-a1ad5e2ed846,,,Social work,Social work,,Misc,N/A,,,,,,,,,,,
 e55dc698-64e2-4f76-9fce-58cbe1204cf6,,,Need for Surgery (workflow),Need for Surgery (workflow),,Misc,N/A,,,,,,,,,,,
 360d7120-0d6a-45bd-875f-d870fbeab7d4,,,Urgent/ASAP,Urgent/ASAP,,Misc,N/A,,,,,,,,,,,
