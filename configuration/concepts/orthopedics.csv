@@ -17,7 +17,7 @@ dfd31e1b-420c-4ed2-ada7-79ac7e92a54e,,Number of Nails,Number of Nails,Número de
 ea15c5d8-8696-4ecc-b829-3c848fbff11c,,Surgery History,Surgery History,Historia de la cirugía,Historia de la cirugía,,ConvSet,N/A,,Previous Surgery;Number of surgeries;Surgeries Done;Number of Nails;Number of Screws,,
 228e50b0-fdac-4640-84bd-9de5a534cf30,,Current Fixation,Current Fixation,Fijación actual,Fijación actual,,Misc,Text,,,,
 da181d9b-93a4-4765-8bd4-68031dbf509a,,Cast Done,Cast Done,Cast Listo,Cast Listo,,Misc,Coded,Yes; No,,,
-ec45fdcb-f9e1-42ad-8651-d8685a20cc3a,,"Cast ","Cast ",Emitir,Emitir,,ConvSet,N/A,,Cast Done;Duration;Time Units,,
+ec45fdcb-f9e1-42ad-8651-d8685a20cc3a,,Cast,Cast,Emitir,Emitir,,ConvSet,N/A,,Cast Done;Duration;Time Units,,
 85007909-5520-46b7-b6d0-ac66d8cde277,,Splint Done,Splint Done,férula hecho,férula hecho,,Misc,Coded,Yes; No,,,
 2651f961-d203-4a57-9b10-400f21c50a76,,Splint,Splint,Entablillar,Entablillar,,ConvSet,N/A,,Splint Done;Duration;Time Units,,
 5d45819e-f419-496d-8fe7-59903c01ecb3,,Conservative Management,Conservative Management,Gestión conservadora,Gestión conservadora,,ConvSet,N/A,,Cast; Splint,,
