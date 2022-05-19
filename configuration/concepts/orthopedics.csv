@@ -46,7 +46,7 @@ a0a7e325-c80e-4f06-ac28-e82ec7eea219,,General Exam Notes,General Exam Notes,Nota
 b1ab3276-f01e-48ad-b67d-cc8ef5120526,,Trauma Set,Trauma,conjunto de trauma,trauma,,ConvSet,N/A,,Parts of the Body/Bones Affected;Previous Treatment;General Exam Notes,,
 71ab7361-94df-46d8-b6e7-67f63e4045c3,,Joints Affected,Joints Affected,Articulaciones Afectadas,Articulaciones Afectadas,,Misc,Text,,,,
 caaa1874-d90e-4273-a77b-37fc98ed7ccf,,Joint Number,J#,Número conjunto,J#,,Misc,Numeric,,,,
-7d933c65-cc68-4152-a247-ce05485d1140,,Locking,Locking,Cierre,Cierre,,Misc,Text,,,,
+7d933c65-cc68-4152-a247-ce05485d1140,,Locking,Locking,Cierre,Cierre,,Misc,Coded,Yes; No;,,,
 12054fce-dc13-4e94-aa10-48f97857a112,,Locking Set,Locking Set,Conjunto de bloqueo,Conjunto de bloqueo,,ConvSet,N/A,,Locking;Joint Number,,
 b7daa3c5-5930-4a6f-bbb4-4fe5b7e4e191,,Crepitus,Crepitus,Crepitación,Crepitación,,Misc,Coded,Yes; No;,,,
 42699640-cf30-4330-aac3-97dcfa4cb30b,,Crepitus Set,Crepitus Set,Conjunto de crepitación,Conjunto de crepitación,,ConvSet,N/A,,Crepitus;Joint Number,,
