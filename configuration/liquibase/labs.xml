@@ -9,66 +9,66 @@
 		<comment>
 			Set concept 'Lab Manager Notes' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '823ccf69-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Manager Notes');</sql>
+		<sql>UPDATE concept SET uuid = '823ccf69-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Lab Manager Notes' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-44" author="reagan-meant">
 		<comment>
 			Set concept 'Accession Uuid' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '8241726e-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Accession Uuid');</sql>
+		<sql>UPDATE concept SET uuid = '8241726e-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='Accession Uuid' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-45" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_MINNORMAL' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '82063446-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MINNORMAL');</sql>
+		<sql>UPDATE concept SET uuid = '82063446-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MINNORMAL' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-47" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_MAXNORMAL' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '8206f0cb-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MAXNORMAL');</sql>
+		<sql>UPDATE concept SET uuid = '8206f0cb-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_MAXNORMAL' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-50" author="reagan-meant">
 		<comment>
 			Set concept 'LABRESULTS_CONCEPT' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '82042d27-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LABRESULTS_CONCEPT');</sql>
+		<sql>UPDATE concept SET uuid = '82042d27-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LABRESULTS_CONCEPT' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-52" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_RESULT' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '820496d3-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_RESULT');</sql>
+		<sql>UPDATE concept SET uuid = '820496d3-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_RESULT' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-53" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_NOTES' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '8205710d-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_NOTES');</sql>
+		<sql>UPDATE concept SET uuid = '8205710d-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_NOTES' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-54" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_ABNORMAL' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = '8207b3e9-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_ABNORMAL');</sql>
+		<sql>UPDATE concept SET uuid = '8207b3e9-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_ABNORMAL' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-56" author="reagan-meant">
 		<comment>
 			Set concept 'REFERRED_OUT' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = 'b05c25af-8bb1-11ea-93a2-0242ac120002' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='REFERRED_OUT');</sql>
+		<sql>UPDATE concept SET uuid = 'b05c25af-8bb1-11ea-93a2-0242ac120002' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='REFERRED_OUT' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-08-22-59" author="reagan-meant">
 		<comment>
 			Set concept 'LAB_REPORT' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = 'bb5e4849-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_REPORT');</sql>
+		<sql>UPDATE concept SET uuid = 'bb5e4849-3f10-11e4-adec-0800271c1b75' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='LAB_REPORT' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-19-22-59" author="reagan-meant">
 		<comment>
 			Set concept 'All_Tests_and_Panels' UUID
 		</comment>
-		<sql>UPDATE concept SET uuid = 'a3a4db93-ba92-492d-aa3a-f19476bd1d73' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All_Tests_and_Panels');</sql>
+		<sql>UPDATE concept SET uuid = 'a3a4db93-ba92-492d-aa3a-f19476bd1d73' WHERE concept_id = (select DISTINCT CONCEPT_ID from concept_name where name='All_Tests_and_Panels' and concept_name_type='FULLY_SPECIFIED' and locale='en');</sql>
 	</changeSet>
 	</databaseChangeLog>
