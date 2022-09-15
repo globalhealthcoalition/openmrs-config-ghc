@@ -3,6 +3,8 @@ Uuid,Void/Retire,Same as mappings,Fully specified name:en,Short name:en,Fully sp
 55800eb1-4e0f-4a75-a12b-aa1e10c64e81,,CIEL:1363,Two plus,++,Dos más,++,,Misc,N/A,,,,,,,,,,,
 17327c32-0a60-4f76-85b5-24379fc72ad5,,CIEL:1364,Three plus,+++,Tres más,+++,,Misc,N/A,,,,,,,,,,,
 f0853fb9-5541-4e13-b79a-e3b438a629cb,,CIEL:1365,Four plus,++++,Cuatro más,++++,,Misc,N/A,,,,,,,,,,,
+a7689eaa-be77-4f15-8000-0f078a7eef6b,,,None,None,Ninguna,Ninguna,,Misc,N/A,,,,,,,,,,,
+9b65e982-e584-4727-8414-34ead3af5839,,,Medication,Medication,Medicamento,Medicamento,,Misc,Text,,,,,,,,,,,
 6609684e-913f-47de-96b6-61af130dfa9d,,,Other Observations,Other Observations,Otras observaciones,Otras observaciones,,Misc,Text,,,,,,,,,,,
 1712fd14-96a6-469d-877c-c691040338ee,,,Anatomical Position,Body Side,Posicion anatomica,Posicion anatomica,,Misc,Coded,,Right; Left,,,,,,,,,
 32aef58f-5642-41b5-aeec-9c13b4a66e0f,,,Previous Imaging,Previous Imaging,Imágenes anteriores,Imágenes anteriores,,Misc,Coded,,Yes; No,,,,,,,,,
