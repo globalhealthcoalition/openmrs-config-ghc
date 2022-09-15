@@ -9,6 +9,10 @@
       <value>0</value>
     </globalProperty>
     <globalProperty>
+      <property>emr.personImagesDirectory</property>
+      <value>/home/bahmni/patient_images</value>
+    </globalProperty>
+    <globalProperty>
       <property>concept.reasonForDeath</property>
       <value>Reason For Death</value>
     </globalProperty>
