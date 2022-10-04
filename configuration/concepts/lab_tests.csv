@@ -99,7 +99,7 @@ f87891da-16d1-4e15-afdf-aa114ab616bf,,,Other culture,Otra cultura,Otra cultura,O
 d3966267-5882-437b-ae14-18dee9657d14,,,RBCs,Hematíes,Hematíes,RBCs,,LabTest,Coded,,Positive; Negative,,,,,,,,
 1b985633-13de-4afa-828e-ef38721c660e,,,Ferning,Helecho,Helecho,Ferning,,LabTest,Coded,,Positive; Negative,,,,,,,,
 dbb2a948-ab68-4474-a24b-5f0ecf697f88,,,Whiff Test,Prueba de olor,Prueba de olor,Whiff Test,,LabTest,Coded,,Positive; Negative,,,,,,,,
-acdc2f09-2844-43e0-9067-8e71da8319ae,,,Urinalysis,Análisis de orina,Análisis de orina,Urinalysis,,LabSet,N/A,,,Aspect;Color;PH; Specific gravity; Glucose; Ketones; Urobilinogen; Nitrites; Leukocyte esterase; Bilirubin; Blood in urine; Protein,Yes,,,,,,
+acdc2f09-2844-43e0-9067-8e71da8319ae,,,Urinalysis,Análisis de orina,Análisis de orina,Urinalysis,,LabSet,N/A,,,Aspect;Color;PH; Specific gravity; Glucose; Ketones; Urobilinogen; Nitrites; Leukocyte esterase; Bilirubin; Blood in urine; Protein,,,,,,,
 4bb7df94-7b92-4e5f-8221-064a76d65e17,,,Yeast,Hongos,Hongos,Yeast,,LabTest,Coded,,Positive; Negative,,,,,,,,
 b2a75309-4eb5-414d-9f29-8ecb4ac7dd32,,,Bacterial vaginosis,Vaginosis bacteriana,Vaginosis bacteriana,Bacterial vaginosis,,LabTest,Coded,,Positive; Negative,,,,,,,,
 74ab27c4-c745-45ff-b7e6-e8dbaf933458,,,Trichomonas,Trichomonas,Trichomonas,Trichomonas,,LabTest,Coded,,Positive; Negative,,,,,,,,
