@@ -14,6 +14,11 @@
 
 	<!-- Encounter Types -->
 	<changeSet id="postbahmni-2021-03-12-19-51" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='ADMISSION'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'ADMISSION' UUID
 		</comment>
@@ -23,6 +28,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-52" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='Consultation'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'Consultation' UUID
 		</comment>
@@ -32,6 +42,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-53" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='DISCHARGE'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'DISCHARGE' UUID
 		</comment>
@@ -41,6 +56,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-54" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='INVESTIGATION'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'INVESTIGATION' UUID
 		</comment>
@@ -50,6 +70,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-55" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='LAB_RESULT'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'LAB_RESULT' UUID
 		</comment>
@@ -59,6 +84,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-56" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='Patient Document'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'Patient Document' UUID
 		</comment>
@@ -68,6 +98,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-57" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='RADIOLOGY'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'RADIOLOGY' UUID
 		</comment>
@@ -77,6 +112,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-58" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='REG'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'REG' UUID
 		</comment>
@@ -86,6 +126,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-19-59" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='TRANSFER'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'TRANSFER' UUID
 		</comment>
@@ -95,6 +140,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-20-00" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='VALIDATION NOTES'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'VALIDATION NOTES' UUID
 		</comment>
@@ -104,6 +154,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-20-21" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from encounter_type where name='Cardiovascularstudy'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'Cardiovascularstudy' UUID
 		</comment>
@@ -114,17 +169,27 @@
 	</changeSet>
 	<!-- Visit Types -->
 	<changeSet id="postbahmni-2021-03-12-20-01" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from visit_type where name='Primary Care'
+		</sqlCheck>
+        </preConditions>
 		<comment>
-			Set visit type 'LAB VISIT' UUID
+			Set visit type 'Primary Care' UUID
 		</comment>
 		<update tableName="visit_type">
-			<column name="uuid" value="bef32e14-3f12-11e4-adec-0800271c1b75"/>
-			<where>name='LAB VISIT'</where>
+			<column name="uuid" value="73ffc57b-2f4a-468e-8f91-9989c0ac6930"/>
+			<where>name='Primary Care'</where>
 		</update>
 	</changeSet>
 
 	<!-- Patient Identifier Types -->
 	<changeSet id="postbahmni-2021-03-12-21-02" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from patient_identifier_type where name='Patient Identifier'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'Patient Identifier' UUID
 		</comment>
@@ -134,6 +199,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-20-03" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from patient_identifier_type where name='National ID'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'National ID' UUID
 		</comment>
@@ -143,6 +213,11 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-03-12-20-04" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from patient_identifier_type where name='Old Identification Number'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'Old Identification Number' UUID
 		</comment>
@@ -152,50 +227,17 @@
 		</update>
 	</changeSet>
 	<changeSet id="postbahmni-2021-04-12-20-02" author="rbuisson">
+		<preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="1">
+            select COUNT(*) from patient_identifier_type where name='OpenMRS Identification Number'
+		</sqlCheck>
+        </preConditions>
 		<comment>
 			Set encounter type 'OpenMRS Identification Number' UUID
 		</comment>
 		<update tableName="patient_identifier_type">
 			<column name="uuid" value="8d793bee-c2cc-11de-8d13-0010c6dffd0f"/>
 			<where>name='OpenMRS Identification Number'</where>
-		</update>
-	</changeSet>
-
-	<!-- Order Types -->
-	<changeSet id="postbahmni-2021-03-25-19-01" author="reagan-meant">
-		<comment>
-			Set order type 'Radiology' UUID
-		</comment>
-		<update tableName="order_type">
-			<column name="uuid" value="33a83162-8a92-11e4-977f-0800271c1b75"/>
-			<where>name='Radiology'</where>
-		</update>
-	</changeSet>
-	<changeSet id="postbahmni-2021-03-25-20-01" author="reagan-meant">
-		<comment>
-			Set order type 'Drug' UUID
-		</comment>
-		<update tableName="order_type">
-			<column name="uuid" value="8d490dfc-c2cc-11de-8d13-0010c6dffd0f"/>
-			<where>name='Drug'</where>
-		</update>
-	</changeSet>
-	<changeSet id="postbahmni-2021-03-25-21-01" author="reagan-meant">
-		<comment>
-			Set order type 'LabTest' UUID
-		</comment>
-		<update tableName="order_type">
-			<column name="uuid" value="33a6291c-8a92-11e4-977f-0800271c1b75"/>
-			<where>name='LabTest'</where>
-		</update>
-	</changeSet>
-	<changeSet id="postbahmni-2021-03-25-21-17" author="reagan-meant">
-		<comment>
-			Set order type 'Test' UUID
-		</comment>
-		<update tableName="order_type">
-			<column name="uuid" value="8d4907b2-c2cc-11de-8d13-0010c6dffd0f"/>
-			<where>name='Test'</where>
 		</update>
 	</changeSet>
 </databaseChangeLog>
