@@ -8,3 +8,4 @@ fdd3754d-a069-4e54-8938-22b6492cb2b6,,Program,Priority 1,,0,1,org.bahmni.module.
 fd5a4ad0-b527-49ce-b001-3bd6e565783c,,Program,Priority 3,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8a6d5b95-ac55-41c2-b27e-ce18012bf962,,,
 3a052d8a-395a-4621-99bf-48a6527336e6,,Program,Primary Care Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,8546be29-e249-4d1a-8f5c-abe0fb941d4a,,,
 0e45c8c0-bfc7-4b12-9e76-179e930c245a,,Program,Needs Surgery Status,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,73f2992c-0375-4a3a-be22-c6a4b45d0621,,,
+2c460025-54e5-4ac3-9fee-9b79c7eb13e6,,Program,Clinical Urgency,,0,1,org.bahmni.module.bahmnicore.customdatatype.datatype.CodedConceptDatatype,3f5a37b4-b7f5-4930-83d1-72ab95579489,,,
