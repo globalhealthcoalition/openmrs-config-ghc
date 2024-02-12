@@ -1,4 +1,5 @@
 Uuid,Void/Retire,Identifier type,Name,Description,Prefix,Suffix,First identifier base,Min length,Max length,Base character set,_version:1
+c83a4ad4-22aa-4e99-90fd-134549401d50,,Patient Identifier,DR,,DR,,200000,4,9,0123456789,
 ed8436bd-b77e-40f4-a7ca-ae13d258eeb1,,Patient Identifier,ALE,,ALE,,200000,4,9,0123456789,
 f145c17b-cd84-42a5-96b3-709c906fab1b,,Patient Identifier,AME,,AME,,200000,4,9,0123456789,
 e6ad1071-1c73-495f-a066-ed9eb21f1f7d,,Patient Identifier,BOM,,BOM,,200000,4,9,0123456789,
